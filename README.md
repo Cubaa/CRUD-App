@@ -1,2 +1,2 @@
 # CRUD-App
-TypeScript, Express.js, MongoDB, Sass
+TypeScript, Express.js, MongoDB, Sass (SCSS)
