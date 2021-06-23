@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+h1 {
+  font-family: arial;
+  margin-bottom: 20px; }
+
+form {
+  padding: 5px;
+  display: flex;
+  width: 20%;
+  min-height: 5vh;
+  flex-direction: column;
+  background-color: grey; }
+  form input {
+    outline: none;
+    padding: 3px 5px;
+    border: none;
+    background-color: whitesmoke;
+    margin: 5px; }
+  form button {
+    padding: 3px 5px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer; }
+
+div.users_list {
+  background-color: lightgrey;
+  font-family: arial;
+  height: 400px;
+  overflow-y: scroll;
+  width: 40%; }
+  div.users_list li {
+    list-style: none;
+    padding: 15px;
+    width: 100%;
+    text-align: center; }
+
+form.manage_panel_form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: grey; }
+
+div.delete_user {
+  width: 20%;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey; }
+  div.delete_user input {
+    padding: 4px;
+    outline: none;
+    border: none;
+    background-color: whitesmoke; }
+  div.delete_user button {
+    margin-top: 5px;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+    font-family: arial; }
+
+div.update_user {
+  margin-top: 30px;
+  width: 20%; }
+
+form.all_users_btn input {
+  cursor: pointer; }
+
+form.manage_panel_btn input {
+  cursor: pointer; }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/css/style.css">
+</head>
+<body>
+    <h1>Witaj w REST API</h1>
+    <form>
+        <input type="text" name="username" placeholder="Imie">
+        <input type="text" name="lastname" placeholder="Nazwisko">
+        <input type="text" name="city" placeholder="Miasto">
+        <input type="date" name="birthdate" placeholder="Data urodzenia">
+        <button class="add_user_btn">Dodaj użytkownika</button>
+</form>
+<form class="all_users_btn" action="/allusers">
+    <input type="submit" value="Wszyscy użytkownicy" />
+</form>
+<form class="manage_panel_btn" action="/managePanel">
+    <input type="submit" value="Zarządzanie użytkownikami" />
+</form>
+</body>
+<script> var exports = {}; </script>
+<script src="/javascript/app.js"></script>
+</html>

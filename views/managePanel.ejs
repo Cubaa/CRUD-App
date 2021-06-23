@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage user panel</title>
+    <link rel="stylesheet" href="/stylesheets/css/style.css">
+</head>
+<body>
+    <h1>Panel zarządzania użytkownikami</h1>
+    <div class="delete_user">
+        <input type="number" placeholder="User id">
+        <button>Usun uzytkownika</button>
+    </div>
+    <div class="update_user">
+        <form class="manage_panel_form">
+            <input type="number" name="id" placeholder="Id">
+            <input type="text" name="username" placeholder="Imie">
+            <input type="text" name="lastname" placeholder="Nazwisko">
+            <input type="text" name="city" placeholder="Miasto">
+            <input type="date" name="birthdate" placeholder="Data urodzenia">
+            <button>Zaktualizuj uzytkownika</button>
+        </form>
+    </div>
+    <script src="/javascript/managePanel.js"></script>
+</body>
+</html>
